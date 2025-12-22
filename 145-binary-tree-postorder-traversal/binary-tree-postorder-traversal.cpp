@@ -9,7 +9,7 @@ public:
         return output;
     }
 
-private:
+
     void postOrder(TreeNode* root, vector<int>& output) {
         if (root != nullptr) {
             postOrder(root->left, output);
